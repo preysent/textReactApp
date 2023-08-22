@@ -52,11 +52,9 @@ function App() {
     <Navbar title="Preysent" about="my about" mode={mode} modef={changeMode}/>
     <Alert alert={alert} />
     {/* <Switch> */}
-    <div className="container">
-    
+    <div className="container">   
 
               <TextForm heading="Enter your text here" mode={mode} showAlert={showAlert} /> 
-
 
     </div>
 
