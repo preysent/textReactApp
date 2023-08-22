@@ -8,6 +8,7 @@ function App() {
  
   const [mode, setMode]= useState('light');
 
+ // function to change mode state 
   const changeMode=()=>{
     if(mode==='light'){
       setMode('dark')
