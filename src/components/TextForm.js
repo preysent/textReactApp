@@ -1,14 +1,8 @@
-// import React from 'react'
-
 // importing react hooks
 import React, { useState } from "react";
 
 
 export default function TextForm(props) {
-
-
-
-
 
     const [text, setText] = useState("");
 
