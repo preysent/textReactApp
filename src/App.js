@@ -8,6 +8,7 @@ function App() {
  
   const [mode, setMode]= useState('light');
 
+ // function to change mode state 
   const changeMode=()=>{
     if(mode==='light'){
       setMode('dark')
@@ -52,11 +53,9 @@ function App() {
     <Navbar title="Preysent" about="my about" mode={mode} modef={changeMode}/>
     <Alert alert={alert} />
     {/* <Switch> */}
-    <div className="container">
-    
+    <div className="container">   
 
               <TextForm heading="Enter your text here" mode={mode} showAlert={showAlert} /> 
-
 
     </div>
 
