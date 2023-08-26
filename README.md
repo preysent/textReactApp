@@ -4,7 +4,7 @@ ok this is react app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Ok your project is done
 
 In the project directory, you can run:
 
